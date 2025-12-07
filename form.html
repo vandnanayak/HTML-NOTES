@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Forms with Attributes</title>
+</head>
+<body>
+  <!--This is form tag-->
+<form action="submit.php">
+   <label for="name">Name</label>
+    <input type="text" id="name" name="username" required>
+   <br><br>
+    <label for="number">Mobil</label>
+    <input type="number"placeholder="Enter your mobile number"><br><br>
+
+  <label for="number">Mail id</label>
+    <input type="number"placeholder="Enter your mail id"><br><br>
+      
+    <label>Gender:</label><br><br>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+      <br><br>
+       <p>Select your Subject</p>
+    <input type="checkbox" name="hobby" value="reading"> Hindi
+    <input type="checkbox" name="hobby" value="coding">English
+    <input type="checkbox" name="hobby" value="sports">History
+         <br><br>
+        <label for="country">Select your country:</label>
+    <select id="country" name="country">
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+    </select>
+   
+    <label for="about">About You</label><br>
+<textarea id="about" name="about" rows="4"placeholder="Write something about yourself"></textarea>
+<input type="submit" value="Submit">
+  </form>
+</body>
+</html>
